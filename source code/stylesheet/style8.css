@@ -1,0 +1,16 @@
+div.p1{
+    border: 3px solid red;
+   margin-bottom:10px ;
+
+}
+div.p2{
+    border: 3px solid black;
+    margin-top: 50px;
+ }
+
+
+ /* 
+  here the margin collapse
+  
+  so we give some margin but the actual margin which will implement is the margin whose value is more.  here the margin top will implement > margin-bottom (as 10<50)
+ */

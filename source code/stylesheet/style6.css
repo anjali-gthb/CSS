@@ -1,0 +1,41 @@
+/* div is a block level element thats why it takes full width of the screen*/
+
+/*
+ div.box>h1{
+    border: 5px solid red;
+} 
+*/
+/* 
+div.box p+h1 {
+   border: 6px solid blue;
+}
+ */
+
+
+
+
+ /* 
+  span is an inline level element thats why it only take that much space which is required for that element
+ */
+
+ /* div.box2 h1 span{
+    border: 2px solid black;
+ } */
+ 
+
+div.box>h1{
+    border-bottom: 4px solid green;
+}
+div.box2 h1{
+    /* border-width:4px;
+    border-style: solid;
+    border-color: aqua; */
+    border: 4px dashed brown;          /* short hand border*/
+    border-radius: 8px;         
+}
+
+
+
+
+
+

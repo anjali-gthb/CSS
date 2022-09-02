@@ -1,0 +1,23 @@
+/*  There are 4 combinator selectors are:- */
+
+
+/*1. Descendant selectors */
+header.header ul li a{
+    color: red;
+}
+
+/*2. child selectors */
+section.section>h2{
+    color: brown;
+}
+
+/* 3. Adajecent selector */
+section.section h2+p{
+    color: aqua;
+}
+
+/* 4. General sibling selsector(~) */
+/* section.section h2{
+    color: yellowgreen;
+} */
+

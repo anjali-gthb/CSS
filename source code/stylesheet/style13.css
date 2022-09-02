@@ -1,0 +1,11 @@
+hr{
+    margin-left: 0;
+    width: 600px;
+}
+p{
+    width: 600px;
+    border: 50px solid indigo;  /* because of this the border exceeds from 600px so we use box-sizing style to maintain the box-size upto width:600*/
+    box-sizing: border-box;         
+
+
+}

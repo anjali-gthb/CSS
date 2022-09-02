@@ -1,0 +1,30 @@
+/* specificity order
+ 
+inline style attribute > id selectors > class selectors > element selctors
+*/
+
+div.h1class{
+    color: violet;
+}
+/* div#h1id{
+    color:darkgreen;               
+} */
+
+/* div{
+    color: black;
+} */
+
+
+
+
+/* if different classes  applied on the same element then whose specificity will more than the other ? */
+
+div.h2class{
+    color:blue;
+ 
+}
+
+
+/*  here the diff classes is aplied at the same element ,they have the equal specificity 
+    here the specificty  increases top to bottom therefore h2class has more specificity then h1class
+*/

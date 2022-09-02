@@ -1,0 +1,6 @@
+img{
+     width: 400px;         /*   height will automatically set by the browser if we give the height only then width will get automatically set by the browser.  */
+     border: 2px solid black;
+     margin: 20px 100px;
+     padding: 10px;
+    }

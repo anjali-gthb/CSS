@@ -1,0 +1,11 @@
+h1{
+   text-decoration: underline red;
+    /* text-decoration: wavy solid red; */
+    /* text-decoration: double red; */
+    /* text-decoration: overline solid red; */
+    text-transform: uppercase;
+}
+p{
+    line-height: 25px;  
+       
+}

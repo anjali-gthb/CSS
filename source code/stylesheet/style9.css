@@ -1,0 +1,12 @@
+h1{
+    background-color: lightblue;
+
+}
+
+a{
+    background-color:lightcoral;
+    display: block;
+    width: 600px;
+    padding: 50px;
+    margin: 50px;
+}

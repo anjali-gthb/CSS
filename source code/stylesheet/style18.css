@@ -1,0 +1,10 @@
+body{
+    color: red;
+}
+/* 
+Exceptions are always there!
+*/
+a{
+    text-decoration: none;
+    color: purple;
+}

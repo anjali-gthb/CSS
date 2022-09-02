@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading{
+    color: rgb(4, 7, 67);   /* utility classes */
+}
+
+.thickness{
+    color: rgb(64, 64, 212);  /* utility classes */
+}
+
+
+

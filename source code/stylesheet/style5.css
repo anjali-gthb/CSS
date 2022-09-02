@@ -1,0 +1,39 @@
+/* 
+    specificity calculation
+
+    inline style attribute   id selector     class selector   element selector
+calc:      _                  ,     _        ,       _         ,      _ 
+
+*/
+
+
+
+
+div.firsth1 h1.main{
+    color: coral;
+}
+/* 
+  calc: 0,0,2,2   let say sepcificty: 22 for understanding
+*/
+
+
+div.firsth1{
+    color: aqua;
+}
+/* 
+  calc: 0,0,1,1  let say specificty : 11 
+*/
+
+
+.firsth1{
+    color: blue;
+}
+/* 
+    calc: 0,0,1,0   let say specificity :10
+
+ */
+
+
+ /*  
+   therefore 22>11>10 this is the specificity order
+ */

@@ -1,0 +1,25 @@
+
+[href*= "google"]{
+    color: palevioletred;  
+  
+}
+
+a[href$=com]{
+    color: yellow;
+}
+
+
+/* a[href^=https]{
+    color: pink;
+} */
+
+
+input[type=text]{
+    color: aqua;
+    background-color:papayawhip
+}
+
+input[type^=p]{
+    color: aqua;
+    background-color: papayawhip;
+}

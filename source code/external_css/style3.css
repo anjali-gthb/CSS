@@ -1,0 +1,13 @@
+h1{
+     /*color: rgb(62, 207, 96);   red green blue-max range 255 */
+     /* color: #ffa53d;  hexcode  first two values are  for red, second two is for green and last two for blue   */
+
+     /*  range(min to max) - 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f */
+
+     /* color: #ff0000;  red */
+     /* color: #ffffff   white; */
+     /* color: #ff00ff    pink; */
+     color: #fff;
+     background-color: #ff0000;
+
+}
