@@ -1,0 +1,23 @@
+/* p:nth-child(2){
+    color: purple;
+    /* color that p element which is the 2nd child of its parent element
+} */
+
+/* p:nth-of-type(2){
+    color: gold;
+    /* color all the 2nd p  element 
+} */
+
+/*  here n=0,1,2,3.........  */
+
+/* p:nth-child(2n){
+    color that p element which is the even child(2,4,6,8..) of its parent element  
+    color: yellow;
+}  */
+/* p:nth-of-type(2n){
+    /* colour all the even p elements 
+    color: blueviolet;
+}  */
+
+
+/* for odd child we can use (2n+1) */

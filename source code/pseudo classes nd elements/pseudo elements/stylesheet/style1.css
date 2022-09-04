@@ -1,0 +1,25 @@
+h3::before{
+    content: 'oye ';
+    /* this content now treated as element and we can add styling in this element
+    and by default it will be an inline element
+    */
+    color: aqua;
+}
+p::after{
+    content: ' this is the paragraph ';
+    color: brown;
+}
+
+
+/* these pseudo elements are not used in img ,input ,br and many more u can check it in mdn */
+/* for eg  */
+
+/* img::before{
+    /* nothing will happen this content will not added 
+    content: 'teachers day card ';
+} */
+
+/* img::after{
+     /* nothing will happen this content will not added
+    content: 'teachers day card';
+} */

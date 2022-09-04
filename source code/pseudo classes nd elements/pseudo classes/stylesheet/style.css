@@ -1,0 +1,29 @@
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: blueviolet;
+}
+/* 
+
+ctrl+shift+delete- cache and cookie delete , as the browser stores the data that we visited to that link so to do reset all the things we can press these keys
+
+*/
+
+
+/* we can do the same thing with the paragraph also */
+
+p:hover{
+    color: aquamarine;
+}
+p:active{
+    background-color: coral;
+}
+
+

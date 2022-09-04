@@ -1,0 +1,13 @@
+p::first-letter{
+    color: aqua;
+}
+
+p::first-line{
+    color: brown;
+}
+
+p::selection{
+    /* if we select some lines of p then this thing will happens */
+    color: white;
+    background-color: black;
+}
