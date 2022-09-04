@@ -1,0 +1,26 @@
+
+body #nav ul{
+    text-align: center;
+    background-color: rgba(239, 210, 210, 0.909);
+    padding: 10px;
+}
+body #nav ul li {
+    display: inline;
+    list-style: none;
+    text-align: center;
+    margin: 30px;
+}
+body header#nav{
+    margin-bottom: 40px;
+}
+a{
+    color: black;
+}
+body h2{
+    border-bottom: 2px solid grey;
+}
+div.container{
+   background-color: antiquewhite;
+   margin: 0px 20px;
+}
+
