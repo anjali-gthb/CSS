@@ -1,0 +1,8 @@
+p:last-child{
+    /* color that p child which is the last child of its parent */
+    color: blue;
+}
+ p:last-of-type{
+    /* color that p element which comes at last in its parents body */
+    color: aqua;
+ }

@@ -1,0 +1,9 @@
+p:first-child{
+    color:violet;
+    /*color that p element which is the first child of its parent  */
+}
+
+p:first-of-type{
+    color: aqua;
+    /*color the p element which comes in first in its parent body*/
+}

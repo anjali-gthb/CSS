@@ -1,0 +1,13 @@
+input:focus{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+}
+
+input:required{
+    padding: 10px;
+    background-color: black;
+    color: red;
+    border: 3px solid yellow;
+}

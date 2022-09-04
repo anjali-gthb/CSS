@@ -1,0 +1,9 @@
+1. first-child pseudo class
+2. first-of-type pseudo class 
+3. last-child pseudo class
+4. last-of-type pseudo class
+5. Nth child pseudo class 
+6. Nth-of-type pseudo class
+
+
+we see all the types one by one.
