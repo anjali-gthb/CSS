@@ -1,0 +1,12 @@
+div.box{
+   
+    background-color: black;
+    width: 50vw;
+    /* vw --> viewport width  */
+    height: 100vh;   
+    /* vh means --> viewport height */
+    /*  viewport means the screen 
+    doesnt depends on the parent only see the screen
+    */
+    border: 3px solid red;
+}
