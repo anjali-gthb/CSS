@@ -1,0 +1,20 @@
+/*  em units are mostly used to give padding margin to make the webpages responsive */
+h1{
+    font-size: 2em;
+    /* 16*2 == 32 px */
+
+    border: 1em solid red;
+    /* now for border it will look to the h1 elements font size and acc to it set the values of other properties  */
+    /*  here , 1*32 == 32px border */
+
+    padding: 2em;
+    /* 2*32 == 64px */
+}
+
+div.box p{
+    font-size: 3em;
+    /* 16*3 == 48px */
+    border: 2em solid blueviolet;
+    /* 2*48 == 96px */
+
+}

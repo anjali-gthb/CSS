@@ -1,0 +1,46 @@
+.parent{
+    width: 100%;
+    background-color:lightcoral;
+   height: 10000px;
+    /* position: relative; */
+
+}
+h2{
+    border: 3px solid black;
+    /* position: absolute; */
+     /* go out from the document flow */
+    /* right: 50%;
+    top: 50%; */
+
+
+    /* to do it at the center 
+    do the position of the parent :relative
+    */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    
+   
+    
+    /* position: relative; */
+    /* right: 10px; */
+    /* top: 100px; */
+    /* z-index: -1; */
+
+    
+    /* go out of the document flow */
+    /* position: fixed;
+    top: 0px ; */
+
+}
+p{
+    border: 3px solid black;
+}
+h3{
+    border:3px solid black;
+
+    /*  remain in documnet flow */
+    /* position: sticky;
+    top: 0px; */
+}

@@ -1,0 +1,40 @@
+/* firstly talk about absolute units - px,in,cm*/
+/* h1{
+    font-size: 96px; */
+
+    /* font-size: 1in; */
+    /* 1in(inch)=96px */
+
+    /* font-size: 2.54cm; */
+    /* 1in=2.54cm
+} */
+
+/* Now we talk about % unit which is a relative unit , mostly used to give width and height*/
+
+
+/* h1{
+    font-size: 200%;
+    
+    it means that the fontsize of h1 will be 10% of fontsize of its parent(here it is body) */
+    /* the default font-size of body is 16px */
+    /* it means 200/100*16 == 32px
+} */
+
+
+
+/*  we can also change the default font size of the body  */
+/* body{
+    font-size: 40px;
+}
+h1{
+    font-size: 400%;
+    400/100*40 == 160px 
+} */
+
+div.box p{
+    font-size: 300%;
+    /* now the font size of this p element will be 300% of the fontsize of its parent(here it is div) */
+    /* the default font size of the div element is 16px */
+    /* so, 300/100*16 == 48px */
+}
+

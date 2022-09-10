@@ -1,0 +1,64 @@
+/* by using float in divs,then these divs  come out of the document flow */
+
+*{
+    box-sizing: border-box;
+}
+
+div.parent{
+    border: 3px solid red ;
+    width: 100%;
+
+}
+.content-1{
+
+    width: 25%;
+    background-color: bisque;
+    float: left;
+    padding: 4px;
+
+}
+.content-2{
+
+    width: 25%;
+    background-color: lightcyan;
+    float: left;
+    padding: 4px;
+
+}
+.content-3{
+ 
+    width: 25%;
+    background-color: lightgoldenrodyellow;
+    float: left;
+    padding: 4px;
+
+}
+.content-4{
+
+    width: 25%;
+    background-color: lightgreenb ;
+    float: left;
+    padding: 4px;
+    padding: 4px;
+}
+/*  to maintain the document flow we can use a simple trick */
+
+
+/* 1. method --> */
+
+/*
+ .clearfix{
+    clear: both;
+}
+ */
+
+
+/* 
+2. method --> is the best method  we can use pseudo element
+*/
+.parent::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
