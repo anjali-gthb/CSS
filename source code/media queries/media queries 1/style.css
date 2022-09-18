@@ -1,0 +1,25 @@
+.box-wrap{
+    background-color: aquamarine;
+
+}
+.float-left{
+    width: 49%;
+    float: left;
+    border: 2px solid black;
+}
+.float-right{
+    width: 49%;
+    float: right;
+    border: 2px solid red;
+}
+.box-wrap::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+@media (max-width:420px){
+    .float-left,.float-right{
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+/* 1. print :- when we print this html page it will show text-color blueviolet  */
+@media print{
+    body{
+        color: blueviolet;
+    }
+}
+
+/* 2. all :- for all types of devices apply this media query */
+
+/* @media (max-width:500px){
+    body{
+        color: brown;
+    }
+} */
+
+/* @media all and (max-width:500px){
+    body{
+        color: brown;
+    }
+} */
+
+
+/* 3. screen :- apply this media query in all types of screen device */
+
+/* @media screen and (min-width:1201px){
+    body{
+        color: palevioletred;
+    }
+} */
