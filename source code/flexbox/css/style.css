@@ -1,0 +1,23 @@
+/* .box-wrapper{
+    border: 5px solid black;
+}
+.box-wrapper .box{
+    border: 2px solid red;
+} */
+
+/* flexbox  
+The container in which all the other boxes are created is called 
+flex container and the boxes created inside it is called flex items
+*/
+
+
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+    /* now the box-wrapper acts like a flex container and the boxes inside it acts like a flex items
+    and allign all the boxes from left to right covering equal width
+    */
+}
+.box-wrapper .box{
+    border: 2px solid red;
+}

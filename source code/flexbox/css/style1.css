@@ -1,0 +1,19 @@
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+}
+.box-wrapper .box{
+    border: 2px solid red;
+}
+
+/* 
+1. box-wrapper is called flex container.
+
+2. the boxes or the divs created inside the flex container are called flex items
+
+3. the width from box1 to box5 or from left to right  is called Main axis 
+and the height from top to bottom is called cross axis
+
+4. and we can change main axis as well cross axis 
+
+*/
