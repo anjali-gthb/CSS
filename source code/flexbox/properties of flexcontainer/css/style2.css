@@ -1,0 +1,22 @@
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;  
+    
+
+      /* /justify-content aligns flexitems in the direction of main axis  */
+    /* justify-content:start; */
+    /* justify-content:end */
+    /* justify-content: center; */
+
+    /* mostly used */
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+
+}
+.box-wrapper .box{
+    border: 2px solid red;
+    width: 200px;
+}
