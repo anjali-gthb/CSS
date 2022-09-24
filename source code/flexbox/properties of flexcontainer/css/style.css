@@ -1,0 +1,20 @@
+/*  flex-direction according to the main-axis if the main-axis started from left and pointing to right then the divs or boxes also folow thw same directio floats left to right only */
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+
+   /* flex-direction: row;   */  
+    /*by default the flexdirection is row only */
+
+    /* flex-direction: row-reverse; */
+    /* here the main-axis get reverse it means it is now align from right to left direction */
+
+    /* flex-direction: column; */
+    /* here now the main axis started from top and pointing to the bottom and the cross axis always perpendicular to the main-axis so now cross axis is align from left to right direction */
+
+    flex-direction: column-reverse;
+     /* here now the main axis started from bottom and pointing to the top (reverse of column) and the cross axis always perpendicular to the main-axis so now cross axis is align from left to right direction */
+}
+.box-wrapper .box{
+    border: 2px solid red;
+}

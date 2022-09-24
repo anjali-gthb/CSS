@@ -1,0 +1,40 @@
+/* 
+ if we try to set the width of the flex items then it will not get applied for that we have to use flex-wrap property to the flex-container
+ */
+
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+
+    /* by default flex-wrap:nowrap */
+    /* flex-wrap: wrap; */
+    /* when we say flex-wrap:wrap then the flex-items align itself in the direction of cross-axis (by default the direction of cross axis is from top to the bottom therefore the flexitems float from top to the bottom)
+    
+    and now the width applied in flex-items will work
+    */
+
+    /* flex-wrap: wrap-reverse; */
+    /* here the alignment of cross axis gets reversed now it is aligned from bottom and pointing to the top hence flex-iems also follows the same 
+    
+    and now the width applied in flex-items will work
+
+    */
+
+
+
+    flex-direction: column;
+    /* here as we know the main-axis align itself from top to bottom and cross axis align itself from left to right always perpendicular to main-axis  */
+
+    flex-wrap: wrap-reverse;
+
+    /* now the cross axis will align itself from right to left and the flex-items will follows the same */
+
+    height: 400px;
+}
+
+
+.box-wrapper .box{
+     border: 2px solid red;
+     width: 400px; 
+   
+}

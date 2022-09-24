@@ -1,0 +1,16 @@
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+    /* flex-direction: column;   */
+    flex-wrap: wrap;
+    height: 500px;
+    /* align-items aligns flex items in the direction of cross axis  */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+
+}
+.box-wrapper .box{
+    border: 2px solid red;
+    width: 200px;
+}

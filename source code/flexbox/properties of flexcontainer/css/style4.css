@@ -1,0 +1,14 @@
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+    height: 500px;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align content works with cross-axis and its working is similar to justify content property only */
+  align-content: space-around;
+}
+.box-wrapper .box{
+    border: 2px solid red;
+    width: 500px;
+}
