@@ -1,0 +1,28 @@
+/* 
+here the width of the wrap-container is 1200px
+and the width of the flex-items is 600each =600+600+600
+therefore the boxes are shrinking.
+*/
+
+.wrap-container{
+    display: flex;
+    border: 3px solid black;
+    max-width: 1200px;
+}
+.box{
+    flex-basis: 600px ;
+
+}
+.box1{
+    background-color: aquamarine;
+    flex-shrink: 2;
+}
+.box2{
+    background-color: lightcoral;
+    flex-shrink: 1;
+}
+.box3{
+    background-color: lightcyan;
+    flex-shrink: 3;
+    /* so box3 will gaveup its space more as compared to other two boxes */
+}

@@ -1,0 +1,22 @@
+/* 
+flex-flow-->flex-direction+flex-wrap
+*/
+.box-wrapper{
+    border: 5px solid black;
+    display: flex;
+    height: 500px;
+    /* align-items: center; */
+    justify-content: space-around;
+
+    /* we can use a flex-flow here */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    
+}
+.box-wrapper .box{
+    border: 2px solid red;
+    width: 600px;
+    
+   
+}

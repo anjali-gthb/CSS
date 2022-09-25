@@ -1,0 +1,31 @@
+/* 
+1. order is the flexitem property therefore it will applies on flexitems only.
+2. order will give the order to the flexitems that in which order the flex-items will align.
+3. by default the order:0;
+*/
+.wrap-container{
+    border: 2px solid black;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px solid yellow;
+    width: 200px;
+}
+.box1{
+    /* order: 4; */
+    order:2;
+}
+.box2{
+    /* order: 3; */
+    order: 1;
+}
+.box3{
+    order: 1;
+}
+.box4{
+    order:1;
+}

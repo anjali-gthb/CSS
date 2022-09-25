@@ -1,0 +1,26 @@
+/* 
+flex: flex-grow flex-shrink flex-basis;
+*/
+.wrap-container{
+    display: flex;
+    border: 2px solid black;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.box{
+    flex:1 400px
+}
+.box1{
+    background-color: aquamarine;
+    /* flex: 1 1 300px; */
+    
+}
+.box2{
+    background-color: lightcoral;
+    /* flex: 1 3 500px; */
+} 
+.box3{
+    background-color: lightcyan;
+    /* flex: 1 2 700px; */
+    
+}

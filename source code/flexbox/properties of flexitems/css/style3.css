@@ -1,0 +1,43 @@
+/* 
+to maange the empty space we uses flex-grow property
+*/
+/* .wrap-container{
+    display: flex;
+    border: 2px solid black;
+   
+    flex-flow: row wrap;
+
+}
+.box{
+    border: 2px solid yellow;
+    width: 200px;
+} */
+
+
+.wrap-container{
+    display: flex;
+    border: 2px solid black;
+    flex-flow: row wrap;
+
+}
+.box{
+    border: 2px solid yellow;
+    width: 200px;
+    /* flex-grow: 1; */
+    /* 
+    all flex-tems will grow equally and cover the empty space equally.
+     */
+}
+.box1{
+    flex-grow: 2;
+    /* it will cover the empty space 3 times MORE as compared to the other boxes*/
+}
+.box2{
+    flex-grow: 1;
+}
+.box3{
+    flex-grow: 1;
+}
+.box4{
+    flex-grow: 1;
+}

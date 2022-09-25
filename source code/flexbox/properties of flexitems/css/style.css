@@ -1,0 +1,25 @@
+/* 
+1. align-self is the flexitem property therefore it will applies on flexitems only.
+2. align-self will align the particular flex-item out of the existing flow , i.e it basically overides align-item property.
+*/
+.wrap-container{
+    border: 2px solid black;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    border: 2px solid yellow;
+    width: 200px;
+}
+.box1{
+    align-self: flex-start;
+}
+.box2{
+    align-self:center;
+}
+.box3{
+    align-self: flex-end;
+}
