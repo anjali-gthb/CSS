@@ -1,0 +1,53 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    /* animation-name: position-chng;  */
+    position: relative;  
+    /* animation-duration: 3s;
+    animation-delay: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out */
+
+    /* sort hand
+    animation: nameofanimation animationduration animationfillmode animationdelay iterationcount animationtimingfunction.
+    */
+    
+    animation: position-chng 3s forwards 2s infinite ease-in-out;
+}
+
+@keyframes position-chng{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: aqua;
+        
+    }
+    25%{
+        top: 0;
+        left: 500px;
+        background-color: orange;
+
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: lightcoral;
+    }
+    75%{
+        top: 500px;
+        left: 0;
+        background-color: lightcyan;
+    }
+    100%{
+        top: 0px;
+        left: 0;
+        background-color: lightgreen;
+
+
+    }
+
+
+
+}
