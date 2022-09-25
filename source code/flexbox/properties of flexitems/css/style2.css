@@ -1,0 +1,32 @@
+/* 
+1. flex-basis is the flexitem property therefore it will applies on flexitems only.
+2. flex-basis - dont confuse yourself with flex-basis and width are same . no its not like that
+    flex-basis---> it is the initial length of the flex-items in the direction of main-axis.
+*/
+.wrap-container{
+    border: 2px solid black;
+    display: flex;
+    height: 10000px;
+   
+    /* justify-content:space-evenly; */
+    flex-flow: column wrap;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+}
+.box{
+    border: 2px solid yellow;
+    width: 200px;
+    flex-basis: 300px; 
+    /* here the flex-basis is the intial length of all the flex-items, along the main axis 
+        here the main axis is pointing from top to bottom.
+    */
+}
+/* .box1{
+    align-self: flex-start;
+}
+.box2{
+    align-self:center;
+}
+.box3{
+    align-self: flex-end;
+} */
